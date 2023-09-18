@@ -1,0 +1,16 @@
+{
+  "resourceName": "DanceImages",
+  "policyUUID": "2583d203",
+  "bucketName": "mydancestudio7a5b9fdea0da4ae0a96629436c7429fb",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
