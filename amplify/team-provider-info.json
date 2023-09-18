@@ -14,6 +14,10 @@
     "categories": {
       "auth": {
         "mydancestudiodd260cb5": {}
+      },
+      "function": {
+        "processPayment": {},
+        "createOrder": {}
       }
     }
   }
