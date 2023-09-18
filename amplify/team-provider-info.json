@@ -16,8 +16,20 @@
         "mydancestudiodd260cb5": {}
       },
       "function": {
-        "processPayment": {},
-        "createOrder": {}
+        "processPayment": {
+          "deploymentBucketName": "amplify-mydancestudio-dev-152743-deployment",
+          "s3Key": "amplify-builds/processPayment-4f755654652f34397054-build.zip"
+        },
+        "createOrder": {
+          "deploymentBucketName": "amplify-mydancestudio-dev-152743-deployment",
+          "s3Key": "amplify-builds/createOrder-442f536967744f792f58-build.zip"
+        }
+      },
+      "storage": {
+        "DanceImages": {}
+      },
+      "api": {
+        "mydancestudio": {}
       }
     }
   }
