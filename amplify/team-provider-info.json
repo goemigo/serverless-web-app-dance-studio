@@ -10,6 +10,11 @@
       "StackName": "amplify-mydancestudio-dev-152743",
       "StackId": "arn:aws:cloudformation:us-east-1:692134626514:stack/amplify-mydancestudio-dev-152743/71234900-5659-11ee-847f-0a3f413ce121",
       "AmplifyAppId": "d2puh4h0fmgsbt"
+    },
+    "categories": {
+      "auth": {
+        "mydancestudiodd260cb5": {}
+      }
     }
   }
 }
