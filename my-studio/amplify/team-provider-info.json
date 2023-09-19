@@ -15,11 +15,20 @@
       "function": {
         "SessionsHandler": {
           "deploymentBucketName": "amplify-mystudio-dev-232854-deployment",
-          "s3Key": "amplify-builds/SessionsHandler-73356d535a5839526f4f-build.zip"
+          "s3Key": "amplify-builds/SessionsHandler-67706d2f377972686a4e-build.zip"
         }
       },
       "api": {
         "viewSessions": {}
+      },
+      "auth": {
+        "mystudio0e2c9ff7": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3o260bca1ghva",
+          "type": "manual"
+        }
       }
     }
   }

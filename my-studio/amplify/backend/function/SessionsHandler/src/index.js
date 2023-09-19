@@ -3,7 +3,6 @@
  */
 exports.handler = async (event) => {
   console.log(event);
-  const sessionId = event.pathParameters.sessionId;
   console.log(`EVENT: ${JSON.stringify(event)}`);
   return {
     statusCode: 200,

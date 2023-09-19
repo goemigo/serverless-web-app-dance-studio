@@ -1,13 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import Amplify, { API } from 'aws-amplify';
+import { useState } from 'react';
+
+const viewAPI = 'viewSessions';
+const path = '/sessions';
 
 function App() {
+  const [title,setTitle] = useState("");
+  function getSessions() {
+    API.get(viewAPI, path).then(response => {
+      setTitle(response);
+    }).catch(error => {
+      console.log(error);
+    })
+  }
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <button onClick={getSessions}>View Sessions</button>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {title}
         </p>
         <a
           className="App-link"
