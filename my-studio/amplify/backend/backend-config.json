@@ -1,1 +1,43 @@
-{}
+{
+  "api": {
+    "viewSessions": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "SessionsHandler"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "SessionsHandler": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_SessionsHandler_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "SessionsHandler"
+        }
+      ]
+    },
+    "AMPLIFY_function_SessionsHandler_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "SessionsHandler"
+        }
+      ]
+    }
+  }
+}

@@ -10,6 +10,17 @@
       "StackName": "amplify-mystudio-dev-232854",
       "StackId": "arn:aws:cloudformation:us-east-1:692134626514:stack/amplify-mystudio-dev-232854/a97184a0-569c-11ee-ac41-0ab2378ccbdf",
       "AmplifyAppId": "d3o260bca1ghva"
+    },
+    "categories": {
+      "function": {
+        "SessionsHandler": {
+          "deploymentBucketName": "amplify-mystudio-dev-232854-deployment",
+          "s3Key": "amplify-builds/SessionsHandler-73356d535a5839526f4f-build.zip"
+        }
+      },
+      "api": {
+        "viewSessions": {}
+      }
     }
   }
 }
